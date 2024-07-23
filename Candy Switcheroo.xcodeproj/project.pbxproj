@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE92A8FF2C4E803A002C8A21 /* Candy_SwitcherooApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE92A8FE2C4E803A002C8A21 /* Candy_SwitcherooApp.swift */; };
+		EE92A9012C4E803A002C8A21 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE92A9002C4E803A002C8A21 /* ContentView.swift */; };
+		EE92A9032C4E803C002C8A21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE92A9022C4E803C002C8A21 /* Assets.xcassets */; };
+		EE92A9062C4E803C002C8A21 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE92A9052C4E803C002C8A21 /* Preview Assets.xcassets */; };
+		EE92A90D2C4E8090002C8A21 /* Chunky-Hazelnut.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE92A90C2C4E8090002C8A21 /* Chunky-Hazelnut.ttf */; };
+		EE92A9112C4E8F8F002C8A21 /* LevelsMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE92A9102C4E8F8F002C8A21 /* LevelsMapView.swift */; };
+		EEAA700E2C4E9F8500B3080F /* RulesMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAA700D2C4E9F8500B3080F /* RulesMap.swift */; };
+		EEAA70112C4EBA6B00B3080F /* SettingsMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAA70102C4EBA6B00B3080F /* SettingsMap.swift */; };
+		EEAA70152C4EBD6000B3080F /* PauseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAA70142C4EBD6000B3080F /* PauseView.swift */; };
+		EEAA70172C4EBFAD00B3080F /* SwitcherooGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAA70162C4EBFAD00B3080F /* SwitcherooGameScene.swift */; };
+		EEAA70192C4EFEE300B3080F /* SwitcherooGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAA70182C4EFEE300B3080F /* SwitcherooGameView.swift */; };
+		EEAA701B2C4FBC5800B3080F /* VictoryGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAA701A2C4FBC5800B3080F /* VictoryGameView.swift */; };
+		EEAA701D2C4FBC6300B3080F /* GameOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAA701C2C4FBC6300B3080F /* GameOverView.swift */; };
+		EEAA701F2C4FC0FF00B3080F /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAA701E2C4FC0FF00B3080F /* GameManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE92A8FB2C4E803A002C8A21 /* Candy Switcheroo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Candy Switcheroo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE92A8FE2C4E803A002C8A21 /* Candy_SwitcherooApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candy_SwitcherooApp.swift; sourceTree = "<group>"; };
+		EE92A9002C4E803A002C8A21 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE92A9022C4E803C002C8A21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE92A9052C4E803C002C8A21 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE92A90C2C4E8090002C8A21 /* Chunky-Hazelnut.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chunky-Hazelnut.ttf"; sourceTree = "<group>"; };
+		EE92A90E2C4E80A6002C8A21 /* Candy-Switcheroo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Candy-Switcheroo-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EE92A9102C4E8F8F002C8A21 /* LevelsMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsMapView.swift; sourceTree = "<group>"; };
+		EEAA700D2C4E9F8500B3080F /* RulesMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RulesMap.swift; sourceTree = "<group>"; };
+		EEAA70102C4EBA6B00B3080F /* SettingsMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsMap.swift; sourceTree = "<group>"; };
+		EEAA70142C4EBD6000B3080F /* PauseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PauseView.swift; sourceTree = "<group>"; };
+		EEAA70162C4EBFAD00B3080F /* SwitcherooGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitcherooGameScene.swift; sourceTree = "<group>"; };
+		EEAA70182C4EFEE300B3080F /* SwitcherooGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitcherooGameView.swift; sourceTree = "<group>"; };
+		EEAA701A2C4FBC5800B3080F /* VictoryGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictoryGameView.swift; sourceTree = "<group>"; };
+		EEAA701C2C4FBC6300B3080F /* GameOverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverView.swift; sourceTree = "<group>"; };
+		EEAA701E2C4FC0FF00B3080F /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE92A8F82C4E803A002C8A21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE92A8F22C4E803A002C8A21 = {
+			isa = PBXGroup;
+			children = (
+				EE92A8FD2C4E803A002C8A21 /* Candy Switcheroo */,
+				EE92A8FC2C4E803A002C8A21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE92A8FC2C4E803A002C8A21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE92A8FB2C4E803A002C8A21 /* Candy Switcheroo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE92A8FD2C4E803A002C8A21 /* Candy Switcheroo */ = {
+			isa = PBXGroup;
+			children = (
+				EEAA70132C4EBD5100B3080F /* Game */,
+				EEAA70122C4EBD4B00B3080F /* GameStates */,
+				EEAA700F2C4EBA5E00B3080F /* SetMap */,
+				EEAA700C2C4E9F7C00B3080F /* RulesMap */,
+				EE92A90F2C4E8F79002C8A21 /* LevelsMap */,
+				EE92A90E2C4E80A6002C8A21 /* Candy-Switcheroo-Info.plist */,
+				EE92A90C2C4E8090002C8A21 /* Chunky-Hazelnut.ttf */,
+				EE92A8FE2C4E803A002C8A21 /* Candy_SwitcherooApp.swift */,
+				EE92A9002C4E803A002C8A21 /* ContentView.swift */,
+				EE92A9022C4E803C002C8A21 /* Assets.xcassets */,
+				EE92A9042C4E803C002C8A21 /* Preview Content */,
+				EEAA701E2C4FC0FF00B3080F /* GameManager.swift */,
+			);
+			path = "Candy Switcheroo";
+			sourceTree = "<group>";
+		};
+		EE92A9042C4E803C002C8A21 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE92A9052C4E803C002C8A21 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE92A90F2C4E8F79002C8A21 /* LevelsMap */ = {
+			isa = PBXGroup;
+			children = (
+				EE92A9102C4E8F8F002C8A21 /* LevelsMapView.swift */,
+			);
+			path = LevelsMap;
+			sourceTree = "<group>";
+		};
+		EEAA700C2C4E9F7C00B3080F /* RulesMap */ = {
+			isa = PBXGroup;
+			children = (
+				EEAA700D2C4E9F8500B3080F /* RulesMap.swift */,
+			);
+			path = RulesMap;
+			sourceTree = "<group>";
+		};
+		EEAA700F2C4EBA5E00B3080F /* SetMap */ = {
+			isa = PBXGroup;
+			children = (
+				EEAA70102C4EBA6B00B3080F /* SettingsMap.swift */,
+			);
+			path = SetMap;
+			sourceTree = "<group>";
+		};
+		EEAA70122C4EBD4B00B3080F /* GameStates */ = {
+			isa = PBXGroup;
+			children = (
+				EEAA70142C4EBD6000B3080F /* PauseView.swift */,
+				EEAA701A2C4FBC5800B3080F /* VictoryGameView.swift */,
+				EEAA701C2C4FBC6300B3080F /* GameOverView.swift */,
+			);
+			path = GameStates;
+			sourceTree = "<group>";
+		};
+		EEAA70132C4EBD5100B3080F /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				EEAA70162C4EBFAD00B3080F /* SwitcherooGameScene.swift */,
+				EEAA70182C4EFEE300B3080F /* SwitcherooGameView.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE92A8FA2C4E803A002C8A21 /* Candy Switcheroo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE92A9092C4E803C002C8A21 /* Build configuration list for PBXNativeTarget "Candy Switcheroo" */;
+			buildPhases = (
+				EE92A8F72C4E803A002C8A21 /* Sources */,
+				EE92A8F82C4E803A002C8A21 /* Frameworks */,
+				EE92A8F92C4E803A002C8A21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Candy Switcheroo";
+			productName = "Candy Switcheroo";
+			productReference = EE92A8FB2C4E803A002C8A21 /* Candy Switcheroo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE92A8F32C4E803A002C8A21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					EE92A8FA2C4E803A002C8A21 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = EE92A8F62C4E803A002C8A21 /* Build configuration list for PBXProject "Candy Switcheroo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE92A8F22C4E803A002C8A21;
+			productRefGroup = EE92A8FC2C4E803A002C8A21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE92A8FA2C4E803A002C8A21 /* Candy Switcheroo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE92A8F92C4E803A002C8A21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE92A9062C4E803C002C8A21 /* Preview Assets.xcassets in Resources */,
+				EE92A90D2C4E8090002C8A21 /* Chunky-Hazelnut.ttf in Resources */,
+				EE92A9032C4E803C002C8A21 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE92A8F72C4E803A002C8A21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEAA701D2C4FBC6300B3080F /* GameOverView.swift in Sources */,
+				EE92A9012C4E803A002C8A21 /* ContentView.swift in Sources */,
+				EE92A8FF2C4E803A002C8A21 /* Candy_SwitcherooApp.swift in Sources */,
+				EEAA701F2C4FC0FF00B3080F /* GameManager.swift in Sources */,
+				EEAA700E2C4E9F8500B3080F /* RulesMap.swift in Sources */,
+				EEAA701B2C4FBC5800B3080F /* VictoryGameView.swift in Sources */,
+				EEAA70152C4EBD6000B3080F /* PauseView.swift in Sources */,
+				EEAA70172C4EBFAD00B3080F /* SwitcherooGameScene.swift in Sources */,
+				EE92A9112C4E8F8F002C8A21 /* LevelsMapView.swift in Sources */,
+				EEAA70112C4EBA6B00B3080F /* SettingsMap.swift in Sources */,
+				EEAA70192C4EFEE300B3080F /* SwitcherooGameView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE92A9072C4E803C002C8A21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE92A9082C4E803C002C8A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE92A90A2C4E803C002C8A21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Candy Switcheroo/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Candy-Switcheroo-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamenation.Candy-Switcheroo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE92A90B2C4E803C002C8A21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Candy Switcheroo/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Candy-Switcheroo-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamenation.Candy-Switcheroo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE92A8F62C4E803A002C8A21 /* Build configuration list for PBXProject "Candy Switcheroo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE92A9072C4E803C002C8A21 /* Debug */,
+				EE92A9082C4E803C002C8A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE92A9092C4E803C002C8A21 /* Build configuration list for PBXNativeTarget "Candy Switcheroo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE92A90A2C4E803C002C8A21 /* Debug */,
+				EE92A90B2C4E803C002C8A21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE92A8F32C4E803A002C8A21 /* Project object */;
+}
